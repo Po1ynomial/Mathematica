@@ -1,0 +1,32 @@
+# ============================================
+#  Mathematica / Wolfram Language Git Ignore
+# ============================================
+
+# Mathematica binary and cache files
+*.mx
+*.ma
+*.mb
+*.m~
+*.wlt
+*.paclet
+
+# Mathematica notebook autosave / backup files
+*.nb~
+*.nb.autosave
+
+# Mathematica front-end cache directories
+**/.Wolfram*
+
+# ============================================
+#  OS-specific junk
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
